@@ -1,2 +1,3 @@
-# xcloudtv
-An app for XCloud gaming on android TVs
+# XCloud TV
+
+An app for using Microsoft Cloud gaming on android TVs.
