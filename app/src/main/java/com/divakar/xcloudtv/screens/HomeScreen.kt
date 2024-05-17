@@ -32,7 +32,9 @@ fun HomeScreen(
     val navHostController = LocalNavController.current
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(20.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(20.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(20.dp)
     ) {
@@ -45,7 +47,9 @@ fun HomeScreen(
             style = MaterialTheme.typography.labelLarge.copy(textMotion = TextMotion.Animated)
         )
         Button(
-            modifier = Modifier.width(120.dp).align(Alignment.CenterHorizontally),
+            modifier = Modifier
+                .width(120.dp)
+                .align(Alignment.CenterHorizontally),
             onClick = { navHostController.navigate("game") }
         ) {
             Icon(
@@ -60,7 +64,9 @@ fun HomeScreen(
             )
         }
         Button(
-            modifier = Modifier.width(120.dp).align(Alignment.CenterHorizontally),
+            modifier = Modifier
+                .width(120.dp)
+                .align(Alignment.CenterHorizontally),
             onClick = { onThemeColorModeClick() }
         ) {
             Icon(
@@ -75,7 +81,9 @@ fun HomeScreen(
             )
         }
         Button(
-            modifier = Modifier.width(120.dp).align(Alignment.CenterHorizontally),
+            modifier = Modifier
+                .width(120.dp)
+                .align(Alignment.CenterHorizontally),
             onClick = { onLocaleChangeClick() }
         ) {
             Icon(

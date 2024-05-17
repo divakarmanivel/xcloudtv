@@ -12,7 +12,7 @@ import com.divakar.xcloudtv.screens.HomeScreen
 fun NavigationGraph(
     onThemeColorModeClick: () -> Unit,
     onLocaleChangeClick: () -> Unit,
-    currentLocale:String
+    currentLocale: String
 ) {
     val navHostController = LocalNavController.current
     NavHost(navController = navHostController, startDestination = "home") {
