@@ -12,3 +12,6 @@ An app for using Microsoft Cloud gaming on android TVs.
 - Add performance metrics screen
 - Faster loading
 - Bug fixes
+
+## Disclaimer
+Use this at your own risk. This project is not affiliated with Xbox / XCloud / Microsoft in any way. All logos/icons/trademarks are copyright of their respective owners.
